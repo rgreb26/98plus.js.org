@@ -50,6 +50,10 @@ function get_icon_for_address(address) {
 		return "my-documents";
 	} else if (address === "/network-neighborhood/") {
 		return "network";
+	} else if (address === "/recycle-bin/") {
+		return "recycle-bin";
+	} else if (address === "/my-briefcase/") {
+		return "briefcase";
 	} else if (address === "/desktop/") { // i.e. C:\Windows\Desktop
 		return "desktop";
 	} else if (address.match(/^\w+:\/\//) || address.match(/\.html?$/)) {
@@ -370,7 +374,8 @@ async function render_folder_template(folder_view, address, eventHandlers) {
 		// @TODO: load FOLDER.HTT from the folder we're showing, if it exists
 		const template_file_name =
 			address === "/recycle-bin/" ? "recycle.htt" :
-				address === "/network-neighborhood/" ? "nethood.htt" :
+			address === "/network-neighborhood/" ? "nethood.htt" :
+			address === "/my-briefcase/" ? "briefcase.htt" :
 					// address === "/my-computer/" ? "MYCOMP.HTT" : // I don't have a proper My Computer folder yet
 					"FOLDER.HTT";
 		template_url = new URL(`/src/WEB/${template_file_name}`, location.href);
@@ -776,6 +781,7 @@ ${doc.documentElement.outerHTML}`;
 											const system_folder_path_to_name = {
 												"/": "(C:)", //"My Computer",
 												"/my-pictures/": "My Pictures",
+												"/my-briefcase/": "My Briefcase",
 												"/my-documents/": "My Documents",
 												"/network-neighborhood/": "Network Neighborhood",
 												"/desktop/": "Desktop",

@@ -1237,6 +1237,13 @@ add_icon_not_via_filesystem({
 	is_system_folder: true,
 });
 add_icon_not_via_filesystem({
+	title: "My Briefcase",
+	iconID: "briefcase",
+	open: function () { systemExecuteFile("/my-briefcase"); },
+	// file_path: "/my-briefcase/",
+	is_system_folder: true,
+});
+add_icon_not_via_filesystem({
 	title: "Network Neighborhood",
 	iconID: "network",
 	open: function () { systemExecuteFile("/network-neighborhood"); },
@@ -1246,7 +1253,8 @@ add_icon_not_via_filesystem({
 add_icon_not_via_filesystem({
 	title: "Recycle Bin",
 	iconID: "recycle-bin",
-	open: function () { Explorer("https://www.epa.gov/recycle/"); },
+	open: function () { systemExecuteFile("/recycle-bin"); },
+	// file_path: "/recycle-bin/",
 	is_system_folder: true,
 });
 add_icon_not_via_filesystem({
