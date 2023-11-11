@@ -11,6 +11,8 @@ This is an unofficial "upgrade" of 98.js, which was originally created by Isaiah
 - Minesweeper fixes (specifically the sunglasses/sad faces)
 - Solitaire fixes (fixes the deal button after winning a game)
 - Updated README
+- Recycle Bin that is actually a folder and not a dead link.
+- Briefcase folder.
 
 Nonetheless:
 
