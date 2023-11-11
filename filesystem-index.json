@@ -86,7 +86,9 @@
         "themes for windows 8.url": null
       }
     }
+	
   },
+	
   "extract-icons.sh": null,
   "favicon-16x16.png": null,
   "favicon-32x32.png": null,
@@ -200,6 +202,8 @@
       "aaronos-48x48.png": null,
       "audio-nope-16x16.png": null,
       "audio-okay-16x16.png": null,
+	  "briefcase-32x32.png": null,
+	  "briefcase-16x16.png": null,
       "calculator-16x16.png": null,
       "calculator-32x32.png": null,
       "chm-16x16.png": null,
@@ -439,6 +443,8 @@
       "windows-update-32x32.png": null,
       "windows-update-48x48.png": null,
       "winxp-doge-16x16.png": null,
+	  "xp-16x16.png": null,
+	  "xp-32x32.png": null,
       "zone-internet-16x16.png": null,
       "zone-internet-32x32.png": null
     },
@@ -562,6 +568,8 @@
     }
   },
   "mstile-150x150.png": null,
+  "my-briefcase": {
+  },
   "my-documents": {
     "Dropbox.url": null,
     "Google Docs.url": null
@@ -4563,6 +4571,8 @@
     }
   },
   "pull-libs.js": null,
+  "recycle-bin": {
+  },
   "safari-pinned-tab.svg": null,
   "site.webmanifest": null,
   "src": {
