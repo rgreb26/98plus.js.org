@@ -85,6 +85,8 @@ const system_folder_path_to_name = {
 	"/": "(C:)", //"My Computer",
 	"/my-pictures/": "My Pictures",
 	"/my-documents/": "My Documents",
+	"/my-briefcase/": "My Briefcase",
+	"/recycle-bin/": "Recycle Bin",
 	"/network-neighborhood/": "Network Neighborhood",
 	"/desktop/": "Desktop",
 	"/programs/": "Program Files",
